@@ -27,12 +27,24 @@ class Qt1070 {
     return (this.read_register(registers.KEYSTATE) & 0x7F);
   }
 
+  acquisition_time(setting) {
+    this.write_register(registers.LOW_POWER_MODE, setting);
+  }
+
+  max_on_before_calibration(setting) {
+    this.write_register(registers.LOW_POWER_MODE, setting);
+  }
+
   //////////////////////
   // Internal methods //
   //////////////////////
 
   read_register(register) {
     return this.i2c.readByteSync(Qt1070.ADDRESS, register);
+  }
+
+  write_register(register, value) {
+    this.i2c.writeByteSync(Qt1070.ADDRESS, register, value);
   }
 
 }
