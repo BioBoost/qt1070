@@ -35,6 +35,14 @@ class Qt1070 {
     this.write_register(registers.LOW_POWER_MODE, setting);
   }
 
+  reset() {
+    this.write_register(registers.RESET, 0xFF);
+  }
+
+  calibrate() {
+    this.write_register(registers.CALIBRATE, 0xFF);
+  }
+
   //////////////////////
   // Internal methods //
   //////////////////////
