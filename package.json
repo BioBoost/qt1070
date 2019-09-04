@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/BioBoost/qt1070/issues"
   },
-  "homepage": "https://github.com/BioBoost/qt1070#readme"
+  "homepage": "https://github.com/BioBoost/qt1070#readme",
+  "dependencies": {
+    "i2c-bus": "^4.0.10"
+  }
 }
