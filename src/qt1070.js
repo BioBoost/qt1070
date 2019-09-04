@@ -23,6 +23,10 @@ class Qt1070 {
     return this.read_register(registers.STATUS);
   }
 
+  keys() {
+    return (this.read_register(registers.KEYSTATE) & 0x7F);
+  }
+
   //////////////////////
   // Internal methods //
   //////////////////////
