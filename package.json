@@ -1,0 +1,24 @@
+{
+  "name": "qt1070",
+  "version": "1.0.0",
+  "description": "Driver library for the QT1070 touch sensor",
+  "main": "./src/qt1070.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BioBoost/qt1070.git"
+  },
+  "keywords": [
+    "qt1070",
+    "touch",
+    "i2c"
+  ],
+  "author": "Nico De Witte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BioBoost/qt1070/issues"
+  },
+  "homepage": "https://github.com/BioBoost/qt1070#readme"
+}
