@@ -19,6 +19,10 @@ class Qt1070 {
     return this.read_register(registers.CHIP_ID);
   }
 
+  status() {
+    return this.read_register(registers.STATUS);
+  }
+
   //////////////////////
   // Internal methods //
   //////////////////////
