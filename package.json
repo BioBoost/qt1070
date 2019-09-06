@@ -1,6 +1,6 @@
 {
   "name": "qt1070",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Driver library for the QT1070 touch sensor",
   "main": "./src/qt1070.js",
   "scripts": {
